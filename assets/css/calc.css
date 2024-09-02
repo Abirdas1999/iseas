@@ -1,0 +1,75 @@
+
+/* Loan Calculator Styles */
+.loan-calculator .loan-card {
+  max-width: 100%;
+}
+.loan-calculator .loan-title{
+  font-size:5rem !important;
+}
+.loan-calculator .card-body .loan-button{
+background-color: #E2BE0A;
+color: black;
+}
+.loan-calculator .card-body .loan-button:hover{
+  background-color: #6e65a4 !important;
+  color: white !important;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 992px) {
+
+  .loan-calculator .loan-title{
+    font-size: 4rem !important; /* Smaller heading size */
+  }
+  .loan-calculator {
+    width: 75%; /* Adjust width for medium screens */
+  }
+
+  .loan-calculator .loan-input {
+    font-size: 18px; /* Adjust input font size */
+    padding: 6px 20px;
+  }
+
+  .loan-calculator .loan-value {
+    font-size: 20px; /* Adjust values font size */
+  }
+
+  .loan-calculator .loan-chart-container {
+    max-width: 250px; /* Reduce chart size */
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 576px) {
+  .loan-calculator {
+    width: 100%; /* Full width for small screens */
+    margin-top: 2rem;
+  }
+
+  .loan-calculator .loan-title{
+    font-size: 2rem !important; /* Smaller heading size */
+  }
+
+  .loan-calculator .loan-input-group {
+    flex: 0 0 100%; /* Full width inputs */
+    max-width: 100%;
+  }
+
+  .loan-calculator .loan-input {
+    font-size: 16px; /* Smaller input font size */
+    padding: 5px 15px;
+  }
+
+  .loan-calculator .loan-button {
+    font-size: 13px !important; /* Smaller button font size */
+    padding: 7px 20px !important;
+  }
+
+  .loan-calculator .loan-value {
+    font-size: 18px; /* Smaller value font size */
+  }
+
+  .loan-calculator .loan-chart-container {
+    max-width: 200px; /* Smaller chart for mobile */
+  }
+}
