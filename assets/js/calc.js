@@ -47,7 +47,7 @@
           datasets: [
             {
               data: [totalInterestPayableValue, loanAmount],
-              backgroundColor: ["#FED81D", "#127681"],
+              backgroundColor: ["#1F2B38", "#FED81D"],
               borderWidth: 0,
             },
           ],

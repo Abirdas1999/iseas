@@ -7,12 +7,12 @@
   font-size:5rem !important;
 }
 .loan-calculator .card-body .loan-button{
-background-color: #E2BE0A;
-color: black;
+	background: rgb(226, 190, 10);
+color: white;
 }
 .loan-calculator .card-body .loan-button:hover{
-  background-color: #6e65a4 !important;
-  color: white !important;
+  background-color: red !important;
+
 }
 
 /* Medium screens (tablets) */

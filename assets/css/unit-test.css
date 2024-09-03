@@ -48,7 +48,7 @@ button.btn:hover {
 button.btn:hover::after {
 	-webkit-transform: translateY(-45%) skew(25deg) scale(1.2);
 	transform: translateY(-45%) skew(25deg) scale(1.2);
-	background-color: rgb(18,118,129);
+	background-color: #c7b766;
 }
 
 .blog-area {
