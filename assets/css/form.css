@@ -286,25 +286,28 @@ fieldset[disabled] .form-control {
 }
 
 .movebtnre {
-  border: 2px solid #ff5501;
-  box-shadow: inset 0 0 0 0 #ff5501;
+  border: 2px solid #1B3456;
+  box-shadow: inset 0 0 0 0 #1B3456;
   color: #fff;
-  background-color: #ff5501;
+  border-radius: 5px !important;
+  background-color: #1B3456;
 }
 
 .movebtnsu {
-  border: 2px solid #3b70ed;
-  box-shadow: inset 0 0 0 0 #3066e5;
-  color: #3f70e3;
+  border: 2px solid #E2BE0A;
+  box-shadow: inset 0 0 0 0 #E2BE0A;
+  border-radius: 5px !important;
+  color: #E2BE0A;
 }
 
 .movebtnre:focus,
 .movebtnre:hover,
 .movebtnre:active {
-  background-color: #ff5501;
+  background-color: #1B3456;
   color: #fff;
-  border-color: #ff5501;
-  box-shadow: inset 317px 0 0 0 #ff5501;
+  border-color: #1B3456;
+  /* border-radius: 10px !important; */
+  box-shadow: inset 317px 0 0 0 #1B3456;
 }
 
 .movebtnsu:focus,
@@ -312,8 +315,8 @@ fieldset[disabled] .form-control {
 .movebtnsu:active {
   background-color: transparent;
   color: #fff;
-  border-color: #3664cf;
-  box-shadow: inset 317px 0 0 0 #386dea;
+  border-color: #E2BE0A;
+  box-shadow: inset 317px 0 0 0 #E2BE0A;
 }
 
 /* --- Media Queries --- */
